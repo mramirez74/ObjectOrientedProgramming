@@ -1,4 +1,4 @@
-
+//OK. O.Aktunc. Check comments down about toss method.
 public class Coin {
 
 	private String sideUp;
@@ -10,7 +10,7 @@ public class Coin {
 	void toss(){
 		double probability = Math.random();
 		
-		if (probability > 0.4)
+		if (probability > 0.4) //This won't give you a fair result. 60% heads, 40% tails
 			sideUp = "heads";
 		else
 			sideUp = "tails";
