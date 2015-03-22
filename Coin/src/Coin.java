@@ -1,4 +1,6 @@
-//OK. O.Aktunc. Check comments down about toss method.
+// Do not copy or give out code to another student again.
+
+//Check comments down about toss method.
 public class Coin {
 
 	private String sideUp;
